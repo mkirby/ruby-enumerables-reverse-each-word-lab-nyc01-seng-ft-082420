@@ -11,10 +11,14 @@ def reverse_each_word(sentence)
   p backwards_sentence
 end
 =end
-
+  
+  backwards_sentence = ""
   sentence.split(" ").collect do |word|
-    #p "jello"
-    p word.reverse
+    if backwards_sentence == ""
+      backwards_sentence += "#{word.reverse}"
+    else
+      backwards_sentence += " #{word.reverse}"
+    end
   end
 end
 
