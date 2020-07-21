@@ -12,8 +12,9 @@ def reverse_each_word(sentence)
 end
 =end
 
-sentence.split(" ").collect do |word|
-  p "jello"
+  sentence.split(" ").collect do |word|
+    p "jello"
+  end
 end
 
 reverse_each_word("Hello, Cruel World")
