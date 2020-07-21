@@ -10,6 +10,7 @@ def reverse_each_word(sentence)
     split_word.each do |character|
       backwards_word.unshift(character)
     end
+    
     backwards_sentence_array << backwards_word
   end
   
