@@ -5,10 +5,12 @@ def reverse_each_word(sentence)
   
   split_words.each do |word|
     split_word = word.split("")
-    split_word.each do |character|
-      backwards_sentence_array.unshift(character)
-    end
+    backwards_word = ""
     
+    split_word.each do |character|
+      backwards_word.unshift(character)
+    end
+    backwards_sentence_array << backwards_word
   end
   
   puts backwards_sentence_array
