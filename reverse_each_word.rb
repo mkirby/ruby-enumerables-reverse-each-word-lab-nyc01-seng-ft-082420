@@ -3,9 +3,8 @@ def reverse_each_word(sentence)
   backwards_sentence_array = []
   p split_words
   
-  split_words.each do |index|
-    p "#{index} times"
-    #split_word = split_words[index].split("")
+  split_words.each do |word|
+    split_word = split_words[index].split("")
     #puts "Split Word #{split_word}"
     
   end
