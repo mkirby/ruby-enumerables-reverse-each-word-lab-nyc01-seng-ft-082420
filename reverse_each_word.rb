@@ -5,7 +5,7 @@ def reverse_each_word(sentence)
   
   split_words.each do |word|
     split_word = word.split("")
-    backwards_word = ""
+    backwards_word = []
     
     split_word.each do |character|
       backwards_word.unshift(character)
@@ -13,7 +13,7 @@ def reverse_each_word(sentence)
     backwards_sentence_array << backwards_word
   end
   
-  puts backwards_sentence_array
+  p backwards_sentence_array
   
 end
 
