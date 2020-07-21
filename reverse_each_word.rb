@@ -13,7 +13,8 @@ end
 =end
 
   sentence.split(" ").collect do |word|
-    p "jello"
+    #p "jello"
+    word.reverse
   end
 end
 
