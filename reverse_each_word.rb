@@ -14,7 +14,7 @@ end
 
   sentence.split(" ").collect do |word|
     #p "jello"
-    word.reverse
+    p word.reverse
   end
 end
 
