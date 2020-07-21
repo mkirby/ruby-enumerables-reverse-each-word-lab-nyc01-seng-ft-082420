@@ -13,7 +13,7 @@ def reverse_each_word(sentence)
     backwards_sentence_array << backwards_word
   end
   
-  p backwards_sentence_array
+  p backwards_sentence_array.join
   
 end
 
