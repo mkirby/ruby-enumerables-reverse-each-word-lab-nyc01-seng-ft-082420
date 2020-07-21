@@ -13,7 +13,7 @@ end
 =end
 
 sentence.split(" ").collect do |word|
-  
+  p "jello"
 end
 
 reverse_each_word("Hello, Cruel World")
