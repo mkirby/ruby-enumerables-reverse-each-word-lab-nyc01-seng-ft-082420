@@ -4,8 +4,8 @@ def reverse_each_word(sentence)
   p split_words
   
   split_words.each do |word|
-    split_word = split_words[index].split("")
-    #puts "Split Word #{split_word}"
+    split_word = word.split("")
+    puts "Split Word #{split_word}"
     
   end
   
