@@ -12,6 +12,8 @@ def reverse_each_word(sentence)
 end
 =end
 
-
+sentence.split(" ").collect do |word|
+  
+end
 
 reverse_each_word("Hello, Cruel World")
