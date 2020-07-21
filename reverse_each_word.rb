@@ -1,4 +1,5 @@
 def reverse_each_word(sentence)
+=begin
   backwards_sentence = ""
   sentence.split(" ").each do |word|
     if backwards_sentence == ""
@@ -9,5 +10,8 @@ def reverse_each_word(sentence)
   end
   p backwards_sentence
 end
+=end
+
+
 
 reverse_each_word("Hello, Cruel World")
