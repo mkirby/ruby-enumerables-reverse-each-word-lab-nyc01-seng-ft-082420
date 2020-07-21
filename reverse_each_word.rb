@@ -7,15 +7,15 @@ def reverse_each_word(sentence)
     split_word = word.split("")
     backwards_word = []
     
-    split_word.each do |character|
-      backwards_word.unshift(character)
-    end
+#    split_word.each do |character|
+#      backwards_word.unshift(character)
+#    end
     
-    backwards_sentence_array << backwards_word
+#    backwards_sentence_array << backwards_word
   end
   
   p backwards_sentence_array.join
   
 end
 
-reverse_each_word("Hello Cruel World")
+reverse_each_word("Hello, Cruel World")
