@@ -1,8 +1,6 @@
 def reverse_each_word(sentence)
-  split_words = sentence.split(" ")
   backwards_sentence = ""
-  
-  split_words.each do |word|
+  sentence.split(" ").each do |word|
     if backwards_sentence == ""
       backwards_sentence += "#{word.reverse}"
     else
